@@ -6,8 +6,8 @@ permalink:           pretty
 
 # Setup
 title:               Blog
-tagline:             'My personal blog'
-description:         'About java, android, desingn pattern and other stuffs i build.'
+# tagline:             'My personal blog'
+description:         'About Java, Android, Design patterns and other stuffs i build.'
 url:                 http://ydrall.github.io
 baseurl:             ''
 paginate:            5
