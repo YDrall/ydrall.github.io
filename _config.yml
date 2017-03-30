@@ -2,21 +2,21 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-#relative_permalinks: true
+# relative_permalinks: true
 
 # Setup
-title:               Blog
-# tagline:             'My personal blog'
-description:         'About Java, Android, Design patterns and other stuffs i build.'
-url:                 http://ydrall.github.io
+title:               ydrall
+tagline:             'an experimental branch'
+description:         'About Java, Android, Design patterns and some other random stuff.'
+url:                 http://drall.me
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
   name:              Yogesh Drall
-  url:               https://twitter.com/yogesh_drall
-  email:             drall.rw@gmail.com
+  url:               https://www.github.com/ydrall
+  email:             yogesh@drall.me
 
 # Custom vars
 version:             1.0.0
