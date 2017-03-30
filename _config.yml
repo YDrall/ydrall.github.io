@@ -8,8 +8,8 @@ permalink:           pretty
 title:               ydrall
 tagline:             'an experimental branch'
 description:         'About Java, Android, Design patterns and some other random stuff.'
-url:                 http://drall.me
-baseurl:             ''
+url:                 'https://drall.me/'
+baseurl:             '/blog'
 paginate:            5
 
 # About/contact
