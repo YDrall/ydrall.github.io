@@ -1,26 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-# relative_permalinks: true
+permalink:        pretty
+relative_permalinks: true
 
 # Setup
-title:               ydrall
-tagline:             'an experimental branch'
-description:         'About Java, Android, Design patterns and some other random stuff.'
-url:                 'https://drall.me'
-baseurl:             ''
-paginate:            5
+title:            'Yogesh Drall'
+tagline:          'My Personal Blog'
+description:      'I am a fullstack developer. This blog is about programming, technology, gadgets and some random technical stuffs.'
+url:              http://ydrall.ml
+baseurl:          /
 
-# About/contact
 author:
-  name:              Yogesh Drall
-  url:               https://www.drall.me
-  email:             yogesh@drall.me
+  name:           'Yogesh Drall'
+  url:            https://twitter.com/yogeshdrall
+
+paginate:         5
 
 # Custom vars
-version:             1.0.0
+version:          2.1.0
 
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+github:
+  repo:           https://github.com/ydrall/ydrall.github.io
