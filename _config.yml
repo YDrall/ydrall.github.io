@@ -11,7 +11,7 @@ title:            'Yogesh Drall'
 tagline:          'My Personal Blog'
 description:      'I am a FullStack developer. This blog is about programming, technology, gadgets and some random technical stuffs.'
 url:              http://ydrall.ml
-baseurl:          /
+baseurl:          '/'
 
 author:
   name:           'Yogesh Drall'
