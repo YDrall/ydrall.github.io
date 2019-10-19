@@ -131,7 +131,7 @@ a.sidebar-nav-item:focus {
 
 .sidebar-profile-img {
   background-image: url('/public/profile_full_length200x200.jpg');
-  margin-left: 2.5rem;
+  margin-left: 1rem;
   margin-bottom: 1rem;
 }
 
