@@ -82,6 +82,10 @@ html {
   font-size: 1.75rem;
 }
 
+.sidebar-about p {
+  font-size: 1rem;
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
