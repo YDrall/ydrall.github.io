@@ -8,7 +8,7 @@ permalink:        pretty
 
 # Setup
 title:            'Yogesh Drall'
-tagline:          'My Personal Blog'
+tagline:          'Personal Blog'
 description:      'I am a FullStack developer. This blog is about programming, technology, gadgets and some random technical stuffs.'
 url:              http://ydrall.ml
 baseurl:          '/'
@@ -24,3 +24,6 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/ydrall/ydrall.github.io
+
+
+plugins: [jekyll-paginate]
