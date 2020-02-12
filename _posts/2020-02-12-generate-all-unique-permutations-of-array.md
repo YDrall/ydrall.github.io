@@ -27,15 +27,15 @@ Now lets write code to generate all permutation of size 1. It can be easily done
 
 ```python
 for i in range(0, len(arr)):
-	print(arr[i])
+    print(arr[i])
 ```
 
 We have successfully generated all unique permutation of size 1, Now we will generate unique permutation of size 2. Simple and straight forward approach is to use two pointers to track the first and second index of array we are using.
 
 ```python
 for i in range(0, len(arr)):
-	for j in range(i+1, len(arr)):
-		print(arr[i], arr[j])
+    for j in range(i+1, len(arr)):
+        print(arr[i], arr[j])
 
 ```
 
@@ -43,20 +43,20 @@ Similarly, we can generate unique permutations of size 3:
 
 ```python
 for i in range(0, len(arr)):
-	for j in range(i+1, len(arr)):
-		for k in range(j+1, len(arr)):
-			print(arr[i], arr[j], arr[k])
+    for j in range(i+1, len(arr)):
+        for k in range(j+1, len(arr)):
+            print(arr[i], arr[j], arr[k])
 
 ```
 And what if we want to print all permutations at once? Well it can be done as follows: 
 
 ```python
 for i in range(0, len(arr)):
-	print(arr[i])    
-	for j in range(i+1, len(arr)):
-		print(arr[i], arr[j])
+    print(arr[i])    
+    for j in range(i+1, len(arr)):
+        print(arr[i], arr[j])
         for k in range(j+1, len(arr)):
-			print(arr[i], arr[j], arr[k])
+            print(arr[i], arr[j], arr[k])
 
 ```
 
@@ -76,10 +76,10 @@ from collections import deque
 
 qu = deque([[a] for a in range(len(arr))])
 while qu:
-	q = qu.popleft()
-	print([arr[i] for i in q])
-	for j in range(q[-1]+1, len(arr)):
-		qu.append(q + [j])
+    q = qu.popleft()
+    print([arr[i] for i in q])
+    for j in range(q[-1]+1, len(arr)):
+        qu.append(q + [j])
 
 ```
 
