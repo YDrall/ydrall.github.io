@@ -15,9 +15,9 @@ Building Python in your local directory:
 - Build cpython project:
     - `./configure --with-pydebug --prefix=/home/me/experimental_branch/cpython_build/`
     - `make -s -j2`
-    - `make install  # It is optional because you already have python executable in your directory and you can run python from here as well.
+    - `make install  # It is optional because you already have python executable in your directory and you can run python from here as well.`
     
-Now python is installed in your local directory. Or you can directly run python without installing it any directory. e.g: ./python`
+Now python is installed in your local directory. Or you can directly run python without installing it any directory. e.g: ./python
 
 Our Python setup is complete and we will run the following program to understand its lifecycle.
 
