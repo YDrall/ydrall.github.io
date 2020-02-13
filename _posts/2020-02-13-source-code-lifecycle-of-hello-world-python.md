@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Source Code: Lifecycle of a hello world program in python.
+title: Source Code- Lifecycle of a hello world program in python.
 ---
 
 Source Code: Lifecycle of a Hello World program in python.
