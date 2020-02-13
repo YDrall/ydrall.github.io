@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Source Code- Lifecycle of a hello world program in python.
+title: Source Code- Python
 ---
 
-Source Code: Lifecycle of a Hello World program in python.
+Lifecycle of a Hello World program in python.
 -------------
 
 I always wanted to know the internals of the Python language, so I started reading the Python language implementation: CPython. To understand the basics of a program execution I tried to track the lifecycle of a simple hello world program and I would like to share my learnings.
