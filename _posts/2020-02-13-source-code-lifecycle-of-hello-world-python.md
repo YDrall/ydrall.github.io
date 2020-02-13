@@ -50,7 +50,7 @@ The main function call Py_BytesMain function to delegate the program execution r
 
 In the end, pymain_run_python method is executed and it handles the python interpreter configuration and based on the configuration it decides whether it needs to run a command, module, file or stdin. As we are running a file, so pymain_run_file  method will be called and this method will open our program file and pass it to the next layer of the compiler by calling PyRun_AnyFileExFlags method.
 
-PyRun_AnyFileExFlags method is in Python/pythonrun.c. This module handles the logic of running python program files. Moving back to the implementation of PyRun_AnyFileExFlags, it uses some helper methods to determine the file type and other checks related execution of a file. After performing all validations and initialization it calls the main execution method: PyRun_AnyFileExFlags, this methods perform two final main steps of program execution:
+PyRun_AnyFileExFlags method is in Python/pythonrun.c. This module handles the logic of running python program files. Moving back to the implementation of PyRun_AnyFileExFlags, it uses some helper methods to determine the file type and other checks related execution of a file. After performing all validations and initialization it calls the main execution method: PyRun_AnyFileExFlags, this method performs two final main steps of program execution:
 - Create an [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree "AST").
 - And finally running the AST mod.
 
