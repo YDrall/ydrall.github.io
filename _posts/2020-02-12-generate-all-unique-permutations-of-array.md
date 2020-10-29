@@ -26,6 +26,7 @@ Taking [1, 2, 3] as an input, we can see that permutation has unique set of outc
 Now lets write code to generate all permutation of size 1. It can be easily done by iterating over array and printing each single value of array.
 
 ```python
+arr = [1, 2, 3]
 for i in range(0, len(arr)):
     print(arr[i])
 ```
@@ -33,6 +34,7 @@ for i in range(0, len(arr)):
 We have successfully generated all unique permutation of size 1, Now we will generate unique permutation of size 2. Simple and straight forward approach is to use two pointers to track the first and second index of array we are using.
 
 ```python
+arr = [1, 2, 3]
 for i in range(0, len(arr)):
     for j in range(i+1, len(arr)):
         print(arr[i], arr[j])
@@ -42,6 +44,7 @@ for i in range(0, len(arr)):
 Similarly, we can generate unique permutations of size 3:
 
 ```python
+arr = [1, 2, 3]
 for i in range(0, len(arr)):
     for j in range(i+1, len(arr)):
         for k in range(j+1, len(arr)):
@@ -51,6 +54,7 @@ for i in range(0, len(arr)):
 And what if we want to print all permutations at once? Well it can be done as follows: 
 
 ```python
+arr = [1, 2, 3]
 for i in range(0, len(arr)):
     print(arr[i])    
     for j in range(i+1, len(arr)):
@@ -74,6 +78,7 @@ Working code is:
 ```python
 from collections import deque
 
+arr = [1, 2, 3]
 qu = deque([[a] for a in range(len(arr))])
 while qu:
     q = qu.popleft()
