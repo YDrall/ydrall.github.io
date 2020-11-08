@@ -39,13 +39,13 @@ The configuration is pretty simple here.
 	'consumer': {  
 		'workers': 1,  
 		'worker_type': 'thread',  
-		'initial_delay': 0.1, # Smallest polling interval, same as -d.  
-		'backoff': 1.15, # Exponential backoff using this rate, -b.  
-		'max_delay': 10.0, # Max possible polling interval, -m.  
-		'scheduler_interval': 1, # Check schedule every second, -s.  
-		'periodic': True, # Enable crontab feature.  
-		'check_worker_health': True, # Enable worker health checks.  
-		'health_check_interval': 1, # Check worker health every second.  
+		'initial_delay': 0.1, # Smallest polling interval.
+		'backoff': 1.15, # Exponential backoff using this rate.
+		'max_delay': 10.0, # Max possible polling interval.  
+		'scheduler_interval': 1, # Check schedule every second.
+		'periodic': True, # Enable crontab feature.
+		'check_worker_health': True, # Enable worker health checks.
+		'health_check_interval': 1, # Check worker health every second.
 	},  
 	}
 
@@ -85,6 +85,7 @@ def run_processing_service(document_id):
 
 
 # file: webapp/views.py
+
 def home(request):
 	# your code here
 	run_processing_service(document.id)
