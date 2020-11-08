@@ -21,9 +21,12 @@ The configuration is pretty simple here.
 
  - **Install package:**		
 
+```python
     	pip install huey
+```
 
  - **Add config in settings.py**
+
 ```python
 	# HUEY Configuration https://huey.readthedocs.io/en/latest/django.html  
 	HUEY = {  
@@ -45,7 +48,9 @@ The configuration is pretty simple here.
 		'health_check_interval': 1, # Check worker health every second.  
 	},  
 	}
+
 ```
+
  - **Run consumer process:**  Run a consumer process in another tab or using supervisor:
 
 ```bash
@@ -67,7 +72,8 @@ The configuration is pretty simple here.
 ```
 
  - **Code changes:** There are no significant code level changes you need to perform to run task asynchronously now.
- ```python
+
+```python
 
      	# file: webapp/services.py
      	from huey.contrib.djhuey import task
