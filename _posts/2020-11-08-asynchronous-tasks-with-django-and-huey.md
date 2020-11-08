@@ -47,6 +47,7 @@ The configuration is pretty simple here.
 	}
 ```
  - **Run consumer process:**  Run a consumer process in another tab or using supervisor:
+
 ```bash
 	> Running locally: 
 
