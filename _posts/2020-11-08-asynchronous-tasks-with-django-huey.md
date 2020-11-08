@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title: Asynchronous Tasks With Django and Huey
@@ -91,3 +89,4 @@ The configuration is pretty simple here.
 
 
 That's all you need to run your code asynchronously.
+
