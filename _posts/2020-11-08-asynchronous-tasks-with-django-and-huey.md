@@ -75,23 +75,22 @@ The configuration is pretty simple here.
 
 ```python
 
-     	# file: webapp/services.py
-     	from huey.contrib.djhuey import task
-     	
-	    @task()  
-		def run_processing_service(document_id):  
-		    logger.info(f"started process: {document_id}")
-		    # run your code as you were running it before.
+# file: webapp/services.py
+from huey.contrib.djhuey import task
 
-----
+@task()  
+def run_processing_service(document_id):  
+    logger.info(f"started process: {document_id}")
+    # run your code as you were running it before.
 
-		# file: webapp/views.py
-		def home(request):
-			# your code here
-			run_processing_service(document.id)
-			# your code here
-			return response
-		
+
+# file: webapp/views.py
+def home(request):
+	# your code here
+	run_processing_service(document.id)
+	# your code here
+	return response
+
 ```
 
 
