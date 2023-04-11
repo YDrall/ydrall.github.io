@@ -9,13 +9,13 @@ permalink:        pretty
 # Setup
 title:            'Yogesh Drall'
 tagline:          'Personal Blog'
-description:      'I am a FullStack developer. This blog is about programming, technology, gadgets and some random technical stuffs.'
-url:              http://ydrall.ml
+description:      'Software engineer, ❤️(loves) to build high scale products.'
+url:              https://www.yogeshdrall.in
 baseurl:          '/'
 
 author:
   name:           'Yogesh Drall'
-  url:            https://twitter.com/yogeshdrall
+  url:            https://www.yogeshdrall.in
 
 paginate:         5
 
